@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -5115,12 +5115,16 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-ptr500">
-<description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="shield">
+<description>Generated from &lt;b&gt;shield.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
 <package name="AK550/4">
 <description>CONNECTOR</description>
+<circle x="-5.25" y="0" radius="1.3975" width="0.127" layer="21"/>
+<circle x="-1.75" y="0" radius="1.3975" width="0.127" layer="21"/>
+<circle x="1.75" y="0" radius="1.3975" width="0.127" layer="21"/>
+<circle x="5.25" y="0" radius="1.3975" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="-0.75" x2="-4.25" y2="0.75" width="0.4064" layer="21"/>
 <wire x1="-2.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.4064" layer="21"/>
 <wire x1="0.75" y1="-0.75" x2="2.75" y2="0.75" width="0.4064" layer="21"/>
@@ -5138,11 +5142,6 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <wire x1="-7" y1="-3.4" x2="7" y2="-3.4" width="0.15" layer="21"/>
 <wire x1="7" y1="-2.1" x2="7" y2="-3.4" width="0.15" layer="21"/>
 <wire x1="-7" y1="2" x2="7" y2="2" width="0.15" layer="21"/>
-<wire x1="3.5" y1="2.6" x2="3.5" y2="-3.75" width="0.15" layer="21"/>
-<circle x="-5.25" y="0" radius="1.3975" width="0.127" layer="21"/>
-<circle x="-1.75" y="0" radius="1.3975" width="0.127" layer="21"/>
-<circle x="1.75" y="0" radius="1.3975" width="0.127" layer="21"/>
-<circle x="5.25" y="0" radius="1.3975" width="0.127" layer="21"/>
 <pad name="1" x="-5.25" y="0" drill="1.27" shape="long" rot="R90"/>
 <pad name="2" x="-1.75" y="0" drill="1.27" shape="long" rot="R90"/>
 <pad name="3" x="1.75" y="0" drill="1.27" shape="long" rot="R90"/>
@@ -5158,14 +5157,14 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <symbols>
 <symbol name="KL">
 <circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="0" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 </symbol>
 <symbol name="KLV">
 <circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="0" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <text x="-3.81" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5212,8 +5211,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <part name="U$1" library="ICCollection" deviceset="TLP206A" device="">
 <attribute name="MPN" value="TLP206GA(F)"/>
 </part>
-<part name="CONTROL" library="con-ptr500" deviceset="AK550/4" device="" value="Screw"/>
-<part name="SENSORS" library="con-ptr500" deviceset="AK550/4" device="" value="Screw"/>
+<part name="CONTROL" library="shield" deviceset="AK550/4" device="" value="Screw"/>
+<part name="SENSORS" library="shield" deviceset="AK550/4" device="" value="Screw"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
