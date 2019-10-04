@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -5204,16 +5204,22 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </classes>
 <parts>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<attribute name="MPN" value="CRCW060310K0JNEBC"/>
+</part>
 <part name="WEMOS_R" library="pinhead_v2" deviceset="PINHD-1X8" device="/OCT" value="D1 Mini"/>
 <part name="WEMOS_L" library="pinhead_v2" deviceset="PINHD-1X8" device="/OCT" value="D1 Mini"/>
-<part name="U$1" library="ICCollection" deviceset="TLP206A" device=""/>
+<part name="U$1" library="ICCollection" deviceset="TLP206A" device="">
+<attribute name="MPN" value="TLP206GA(F)"/>
+</part>
 <part name="CONTROL" library="con-ptr500" deviceset="AK550/4" device="" value="Screw"/>
 <part name="SENSORS" library="con-ptr500" deviceset="AK550/4" device="" value="Screw"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<attribute name="MPN" value="CRCW060310K0JNEBC"/>
+</part>
 <part name="I2C" library="pinhead_v2" deviceset="PINHD-1X4" device="/OCT" value="Header"/>
 </parts>
 <sheets>
@@ -5228,6 +5234,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="R6" gate="G$1" x="60.96" y="-7.62" smashed="yes">
 <attribute name="NAME" x="57.15" y="-6.1214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="-10.922" size="1.778" layer="96"/>
+<attribute name="MPN" x="60.96" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="WEMOS_R" gate="A" x="134.62" y="35.56" smashed="yes">
 <attribute name="NAME" x="128.27" y="48.895" size="1.778" layer="95"/>
@@ -5239,6 +5246,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </instance>
 <instance part="U$1" gate="G$1" x="93.98" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="43.18" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="MPN" x="93.98" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="CONTROL" gate="-1" x="91.44" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.329" y="76.2" size="1.778" layer="95" rot="R90"/>
@@ -5281,6 +5289,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <instance part="R5" gate="G$1" x="60.96" y="2.54" smashed="yes">
 <attribute name="NAME" x="57.15" y="4.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="-0.762" size="1.778" layer="96"/>
+<attribute name="MPN" x="60.96" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="I2C" gate="A" x="134.62" y="63.5" smashed="yes">
 <attribute name="NAME" x="128.27" y="71.755" size="1.778" layer="95"/>
@@ -5373,10 +5382,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <label x="137.16" y="40.64" size="1.778" layer="95"/>
 <pinref part="I2C" gate="A" pin="2"/>
-<wire x1="121.92" y1="43.18" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="WEMOS_R" gate="A" pin="2"/>
-<wire x1="132.08" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="WEMOS_R" gate="A" pin="3"/>
+<wire x1="132.08" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -5432,10 +5441,10 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <segment>
 <label x="137.16" y="38.1" size="1.778" layer="95"/>
 <pinref part="I2C" gate="A" pin="3"/>
-<wire x1="124.46" y1="40.64" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="43.18" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="WEMOS_R" gate="A" pin="3"/>
-<wire x1="132.08" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="WEMOS_R" gate="A" pin="2"/>
+<wire x1="132.08" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
