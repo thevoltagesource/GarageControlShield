@@ -5253,13 +5253,13 @@ by exp-lbrs.ulp</description>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="WEMOS_R" library="pinhead_v2" deviceset="PINHD-1X8" device="/OCT" value="D1 Mini"/>
 <part name="WEMOS_L" library="pinhead_v2" deviceset="PINHD-1X8" device="/OCT" value="D1 Mini"/>
-<part name="U$1" library="shield" deviceset="TLP206A" device="">
+<part name="TLP206GA(F)" library="shield" deviceset="TLP206A" device="">
 <attribute name="MPN" value="TLP206GA(F)"/>
 </part>
 <part name="CONTROL" library="shield" deviceset="AK550/4" device="QUIET" value="Screw"/>
 <part name="SENSORS" library="shield" deviceset="AK550/4" device="QUIET" value="Screw"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="170"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="I2C" library="pinhead_v2" deviceset="PINHD-1X4" device="/OCT" value="Header"/>
 </parts>
@@ -5280,7 +5280,7 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="36.83" y="23.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="93.98" y="43.18" smashed="yes" rot="R90">
+<instance part="TLP206GA(F)" gate="G$1" x="93.98" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="43.18" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="MPN" x="93.98" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -5353,14 +5353,14 @@ by exp-lbrs.ulp</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="CONTROL" gate="-3" pin="KL"/>
-<pinref part="U$1" gate="G$1" pin="RELAY1_1"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="RELAY1_1"/>
 <wire x1="81.28" y1="71.12" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="CONTROL" gate="-2" pin="KL"/>
-<pinref part="U$1" gate="G$1" pin="RELAY2_2"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="RELAY2_2"/>
 <wire x1="86.36" y1="71.12" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5368,13 +5368,13 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="CONTROL" gate="-4" pin="KL"/>
 <wire x1="76.2" y1="71.12" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RELAY1_2"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="RELAY1_2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="CONTROL" gate="-1" pin="KL"/>
-<pinref part="U$1" gate="G$1" pin="RELAY2_1"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="RELAY2_1"/>
 <wire x1="91.44" y1="71.12" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5418,9 +5418,9 @@ by exp-lbrs.ulp</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
 <junction x="53.34" y="2.54"/>
-<pinref part="U$1" gate="G$1" pin="LED(+)_1"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="LED(+)_1"/>
 <wire x1="76.2" y1="40.64" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="LED(+)_2"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="LED(+)_2"/>
 <wire x1="86.36" y1="40.64" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5477,14 +5477,14 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LED(-)_1"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="LED(-)_1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="40.64" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LED(-)_2"/>
+<pinref part="TLP206GA(F)" gate="G$1" pin="LED(-)_2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="40.64" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
 </segment>
